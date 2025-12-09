@@ -1,18 +1,25 @@
 Mall Customer Clustering Analysis
 
 📌 Project Overview
+
 Customer segmentation is a powerful method for understanding shopping behavior and designing effective marketing strategies.
 In this project, mall customers are segmented using demographic, financial, and behavioral attributes.
 By applying K-Means and Gaussian Mixture Model (GMM) clustering, the project identifies meaningful customer groups to support targeted marketing and engagement planning.
 
 🎯 Objectives
+
 Group mall customers based on demographic and spending patterns
+
 Analyze behavior using age, income, spending score, and visit-related metrics
+
 Apply K-Means clustering to discover natural customer segments
+
 Use Elbow Method, KneeLocator & Silhouette Score for optimal cluster selection
+
 Support data-driven decisions for marketing, sales, and customer retention
 
 📊 Key Metrics Used
+
 Demographic Metrics
 Age
 Gender
