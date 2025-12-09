@@ -16,24 +16,13 @@ Support data-driven decisions for marketing, sales, and customer retention.
 
 📊 Key Metrics Used
 
-Demographic Metrics:
-Age, 
-Gender,
-Age Group.
-Financial Metrics:
-Annual_Income_k$,
-Total_Amount_Spent.
-Behavioral Metrics:
-Spending_Score,
-Visit_Frequency,
-Avg_Time_Spent_Min,
-Preferred_Day,
-Num_Returns,
-Last_Visit_Days_Ago,
-Loyalty & Marketing Metrics:
-Loyalty_Member,
-Marketing_Opt_In
-Payment_Method.
+| Metric Type                 | Metrics Included                                                                                     |
+| ----------------------------|------------------------------------------------------------------------------------------------------|
+| Demographic Metrics         | Age, Gender, Age Group                                                                               |
+| Financial Metrics           | Annual_Income_k$, Total_Amount_Spent                                                                 |
+| Behavioral Metrics          | Spending_Score, Visit_Frequency, Avg_Time_Spent_Min, Preferred_Day, Num_Returns, Last_Visit_Days_Ago |
+| Loyalty & Marketing Metrics | Loyalty_Member, Marketing_Opt_In, Payment_Method                                                     |
+
 
 📁 Dataset Overview
 
@@ -173,13 +162,18 @@ df.to_excel("clustered_customers.xlsx", index=False)
 
 🛠️ Tools Used
 
-Python 3.
-Jupyter Notebook.
-Pandas & NumPy – data processing.
-Matplotlib & Seaborn – visualizations.
-Scikit-Learn – K-Means, GMM, PCA, scaling.
-KneeLocator – elbow point detection.
-Excel file (.xlsx) for dataset input.
+| Tool / Library     | Purpose                               |
+| ------------------ | ------------------------------------- |
+| Python 3           | Core programming language             |
+| Jupyter Notebook   | Interactive development environment   |
+| Pandas             | Data manipulation and processing      |
+| NumPy              | Numerical computations                |
+| Matplotlib         | Data visualization (plots & charts)   |
+| Seaborn            | Statistical visualizations            |
+| Scikit-Learn       | K-Means, GMM, PCA, scaling & ML tools |
+| KneeLocator        | Automatic elbow point detection       |
+| Excel (.xlsx)      | Dataset input using `pd.read_excel()` |
+
 
 📅 Project Duration
 
