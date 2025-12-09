@@ -100,6 +100,7 @@ K-Means
 Fast, simple, distance-based.
 Good for spherical clusters.
 Hard clustering (each point → one cluster).
+
 GMM
 
 Probabilistic soft clustering.
@@ -182,7 +183,7 @@ Excel file (.xlsx) for dataset input.
 
 📅 Project Duration
 
-November 2025-Decdember 2025.
+November 2025-December 2025.
 
 👩‍💻 Team
 
